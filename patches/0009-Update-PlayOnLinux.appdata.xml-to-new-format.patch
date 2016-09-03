@@ -1,0 +1,39 @@
+From 94cfdcdee9c2d1e6537350f3c154d0e7929c537a Mon Sep 17 00:00:00 2001
+From: Jiri Konecny <DragonLichcz@gmail.com>
+Date: Sat, 3 Sep 2016 09:50:24 +0200
+Subject: [PATCH] Update PlayOnLinux.appdata.xml to new format
+
+Add bugtracker link.
+Add how to donate donation link.
+Add where to find help link.
+Add translation tutorial link.
+Add keywords for search.
+---
+ etc/PlayOnLinux.appdata.xml | 12 ++++++++++++
+ 1 file changed, 12 insertions(+)
+
+diff --git a/etc/PlayOnLinux.appdata.xml b/etc/PlayOnLinux.appdata.xml
+index 4b3f62f..4d6d784 100644
+--- a/etc/PlayOnLinux.appdata.xml
++++ b/etc/PlayOnLinux.appdata.xml
+@@ -34,5 +34,17 @@
+     </screenshot>
+   </screenshots>
+   <url type="homepage">https://www.playonlinux.com/</url>
++  <url type="bugtracker">https://www.playonlinux.com/en/bugs.html</url>
++  <url type="donation">https://www.playonlinux.com/en/donate.html</url>
++  <url type="help">http://wiki.playonlinux.com/index.php/Main_Page</url>
++  <url type="translate">http://wiki.playonlinux.com/index.php/Scripting_-_Chapter_10:_Script_Translation</url>
++
++  <keywords>
++    <keyword>wine</keyword>
++    <keyword>games</keyword>
++    <keyword>software</keyword>
++    <keyword>windows</keyword>
++  </keywords>
++
+   <update_contact>dragonlichcz_at_gmail.com</update_contact>
+ </component>
+-- 
+2.7.4
+
